@@ -38,6 +38,8 @@ public class SlidingWindow {
             if (i >= w - 1) {
                 res[index++] = arr[qmax.peekFirst()];
                 System.out.println("hello");
+                System.out.println("master");
+                System.out.println("hot-fix");
             }
         }
         return res;
