@@ -37,6 +37,7 @@ public class SlidingWindow {
             //why -1 because i starts from 0 index
             if (i >= w - 1) {
                 res[index++] = arr[qmax.peekFirst()];
+                System.out.println("hello");
             }
         }
         return res;
